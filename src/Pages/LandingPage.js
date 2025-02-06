@@ -1,35 +1,19 @@
 import React from 'react'
+import './LandingPage.css'
+import Logo from '../Assets/logo.png'
+import BG from '../Assets/BG2.jpg'
 
 export default function LandingPage() {
   return (
-    <div> LandingPage
+        <div id = 'BG' style={{height:"100vh"}} >
 
-      <html>  
-        <body>
+          <img id = 'Logo' alt = 'Logo' src = {Logo}/>
 
-          <image></image>
-
-          <h1 id = "AscensionTitle">ASCENSI NN </h1>
-
-          <image></image>
+          <h1 id = "AscensionTitle">ASCENSI &nbsp; NN </h1>
 
 
 
-        </body>     
-      </html>
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-
+        </div>     
         
   )
 }
