@@ -4,8 +4,8 @@
         "paths": {
             "@Assets/*": ["Assets/*"],
             "@Components/*": ["Components/*"],
-            "@Pages/*": ["Pages/*"],
+            "@Pages/*": ["Pages/*"]
         }
     },
-    "include":["src/**/*"],
+    "include":["src/**/*"]
 }
