@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Page({Child}:{Child:React.FC}) {
+export default function Page({children,}:Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <div className='flex flex-col w-screen h-screen'>
-        <Child/>
+        {children}
     </div>
   )
 }
