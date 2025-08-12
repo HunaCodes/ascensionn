@@ -1,10 +1,11 @@
 import React from 'react'
 
-export default function Page({children,}:Readonly<{
+export default function Page({children,className}:Readonly<{
   children: React.ReactNode;
+  className?: string
 }>) {
   return (
-    <div className='flex flex-col w-screen h-screen'>
+    <div className={`snap-start h-screen ${className}`}>
         {children}
     </div>
   )
