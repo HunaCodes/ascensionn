@@ -36,6 +36,10 @@ body {
     
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 #Logo {
     height: 85px;
     padding-left: 840px;
