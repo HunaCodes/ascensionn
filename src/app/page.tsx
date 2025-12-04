@@ -1,6 +1,7 @@
 'use client'
 
 import Page from "@/Components/Page";
+import AboutUs from "@/Components/Pages/AboutUs";
 import Home from "@/Components/Pages/Home";
 type ComponentConfig = {
   Component: React.ReactNode
@@ -10,7 +11,8 @@ type ComponentConfig = {
 export default function Ascensionn() {
   
   const pages:ComponentConfig[] = [
-    {Component: <Home/>}
+    {Component: <Home/>},
+    {Component: <AboutUs/>}
     
   ];
   return (
