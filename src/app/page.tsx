@@ -3,29 +3,36 @@
 import Page from "@/Components/Page";
 import AboutUs from "@/Components/Pages/AboutUs";
 import Home from "@/Components/Pages/Home";
+
+
 type ComponentConfig = {
   Component: React.ReactNode
   props?: any
 }
 
+
 export default function Ascensionn() {
   
   const pages:ComponentConfig[] = [
     {Component: <Home/>},
-    {Component: <AboutUs/>}
-    
+    {Component: <AboutUs/>},
+    {Component: <AboutUs/>},
+    {Component: <AboutUs/>},
+    {Component: <AboutUs/>},
   ];
+
+  
   return (
-    <div className="text-white snap-y w-screen h-screen overflow-y-auto overflow-hidden snap-mandatory">
-      <div style={{
-        background: "linear-gradient(to bottom, #051923 10%, #003554 44%, #006494 86%, #0582CA 100%)"}} 
-      className="flex w-screen h-fit flex-col snap-y snap-mandatory">
-        {pages.map((Content, index) => (
+    <div className="text-white w-screen h-screen overflow-y-auto overflow-x-hidden overflow-hidden snap-y snap-mandatory">
+      
+      <div className="flex flex-col" style={{background: "linear-gradient(to bottom, #051923 2%, #003554 44%, #006494 90%, #0582CA 100%)", backdropFilter:'blur(10px)'}}>
+        {pages.map((page, index) => (
             <Page key={index} >
-              {Content.Component}
+              {page.Component}
             </Page>
         ))}
       </div>
+
     </div>
   );
 }
