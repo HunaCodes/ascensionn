@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Navbar from '../Navbar'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <h1 className='drop-shadow-lg lg:text-8xl'>nn</h1>
       </div>
     
+    <Navbar></Navbar>
     
     
     </div>
