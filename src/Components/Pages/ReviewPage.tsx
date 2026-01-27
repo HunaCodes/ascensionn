@@ -23,6 +23,15 @@ const reviews: Array<Review> = [
         This is just additional text which should overflow.
         This is just additional text which should overflow.
         This is just additional text which should overflow.
+            This is just additional text which should overflow.
+    This is just additional text which should overflow.
+    v
+        This is just additional text which should overflow.
+    This is just additional text which should overflow.
+    v
+        This is just additional text which should overflow.
+    This is just additional text which should overflow.
+    v
         This is just additional text which should overflow.
         This is just additional text which should overflow.`,
         name:"AnAmazing Person"
@@ -55,7 +64,6 @@ export default function ReviewPage() {
     const [showReviews, setShowReviews] = useState(true);
     const scrollFunc = ()=>{
         const elem = document.getElementById('reviews');
-        console.log('run')
         const x = elem?.scrollLeft;
         const y = elem?.scrollTop;
         console.log(x,y)
