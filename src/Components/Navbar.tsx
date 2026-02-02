@@ -8,11 +8,11 @@ export default function Navbar() {
         
         <div className='flex w-fit bg-[#051923] rounded-full py-3 px-4 gap-10 text-md font-semibold'>
 
-          <button className="cursor-pointer bg-[#0F2330] px-4 rounded-full py-2" >About Us</button>
-          <button className="cursor-pointer bg-[#0F2330] px-4 rounded-full py-2" >Find Out More</button>
-          <button className="cursor-pointer bg-[#0F2330] px-4 rounded-full py-2" >Reviews</button>
-          <button className="cursor-pointer bg-[#0F2330] px-4 rounded-full py-2" >FAQs</button>
-          <button className="bg-[#00A6FB] px-2 rounded-full py-2 cursor-pointer" >Book Now &rarr;</button>
+          <button className="cursor-pointer bg-[#0F2330] lg:px-4 rounded-full py-2" >About Us</button>
+          <button className="cursor-pointer bg-[#0F2330] lg:px-4 rounded-full py-2" >Find Out More</button>
+          <button className="cursor-pointer bg-[#0F2330] lg:px-4 rounded-full py-2" >Reviews</button>
+          <button className="cursor-pointer bg-[#0F2330] lg:px-4 rounded-full py-2" >FAQs</button>
+          <button className="bg-[#00A6FB] px-2 rounded-full lg:py-2 cursor-pointer" >Book Now &rarr;</button>
         
         </div>
         
