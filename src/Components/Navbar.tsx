@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className='absolute h-screen w-screen'>
         
-       <h1 className='h-full w-full flex items-end justify-center pb-20 drop-shadow-lg'>
+       <h1 className='h-full w-full flex items-end justify-center pb-5 md:pb-20 drop-shadow-lg'>
         
         <div className='flex w-fit bg-[#051923] rounded-full py-2 px-2 text-xs gap-1 md:py-3 md:px-4 md:gap-5 md:text-lg font-semibold'>
 
