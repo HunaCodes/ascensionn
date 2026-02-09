@@ -1,6 +1,9 @@
 import React from 'react'
 
 export default function AboutUs() {
+
+  const aboutUsText = "At Ascensionn, we specialize in helping Angel Investors attract over 50 thesis-aligned deals within 180 days. Our unique approach empowers investors to build a consistent and proprietary deal flow, ensuring they find high-quality opportunities that match their specific investment goals. With a focus on precision and efficiency, we streamline the deal-sourcing process to create lasting value for both investors and startups.";
+
   return (
     <div className='relative w-screen h-screen flex flex-col'>
 
@@ -14,13 +17,7 @@ export default function AboutUs() {
             <div className='text-white font-bold drop-shadow-lg top-0 h-full mt-5 z-10'>About Us</div>
 
             {/*sBackground information*/}
-            <i className='text-white text-center w-[60%] text-base mb-30 z-10'>
-              "At Ascensionn, we specialize in helping Angel Investors attract over 50 thesis-aligned deals within 180 days. 
-              Our unique approach empowers investors to build a consistent and proprietary deal flow,
-              ensuring they find high-quality opportunities that match their specific investment goals.
-              With a focus on precision and efficiency, 
-              we streamline the deal-sourcing process to create lasting value for both investors and startups."
-            </i>
+            <i className='text-white text-center w-[60%] text-base mb-30 z-10'>"{aboutUsText}"</i>
         </div>
 
 
