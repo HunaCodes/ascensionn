@@ -14,7 +14,13 @@ export default function AboutUs() {
             <div className='text-white font-bold drop-shadow-lg top-0 h-full mt-5 z-10'>About Us</div>
 
             {/*sBackground information*/}
-            <p className='text-white text-center w-1/2 text-sm mb-30 z-10'>At Ascensionn, we help real estate developers boost buyer conversions with our 24/7 AI Sales Concierge. Our system instantly engages, qualifies, and schedules appointments, turning inquiries into closed deals—faster than the competition.</p>
+            <i className='text-white text-center w-[60%] text-base mb-30 z-10'>
+              "At Ascensionn, we specialize in helping Angel Investors attract over 50 thesis-aligned deals within 180 days. 
+              Our unique approach empowers investors to build a consistent and proprietary deal flow,
+              ensuring they find high-quality opportunities that match their specific investment goals.
+              With a focus on precision and efficiency, 
+              we streamline the deal-sourcing process to create lasting value for both investors and startups."
+            </i>
         </div>
 
 
