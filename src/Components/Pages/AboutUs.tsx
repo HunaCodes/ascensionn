@@ -8,7 +8,7 @@ export default function AboutUs() {
     <div className='relative w-screen h-screen flex flex-col'>
 
         {/* Background Image */}
-        <div className='relative w-full h-[45%] top-0 bg-[url("/aboutUsBG.jpeg")] bg-cover bg-center justify-center items-center flex flex-col text-5xl'>
+        <div className='relative w-full h-[47%] top-0 bg-[url("/aboutUsBG.jpeg")] bg-cover bg-[center_75%] justify-center items-center flex flex-col text-5xl'>
 
             {/* Overlay */}
             <div className='absolute inset-0 bg-gradient-to-t from-[#051923] via-transparent to-transparent opacity-100  z-0'></div>
