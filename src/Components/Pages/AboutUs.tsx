@@ -11,7 +11,7 @@ export default function AboutUs() {
         <div className='relative w-full h-[45%] top-0 bg-[url("/aboutUsBG.jpeg")] bg-cover bg-center justify-center items-center flex flex-col text-5xl'>
 
             {/* Overlay */}
-            <div className='absolute inset-0 bg-gradient-to-t from-[#051923] via-[#051923] to-transparent opacity-[75%] z-0'></div>
+            <div className='absolute inset-0 bg-gradient-to-t from-[#051923] via-[#051923] to-transparent opacity-90 z-0'></div>
 
             {/* Title */}
             <div className='text-white font-bold drop-shadow-lg top-0 h-full mt-5 z-10'>About Us</div>
