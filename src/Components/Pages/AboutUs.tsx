@@ -19,7 +19,7 @@ export default function AboutUs() {
             <div className='text-white font-bold text-6xl drop-shadow-2xl top-0 h-full mt-5 z-10'>About Us</div>
 
             {/*sBackground information*/}
-            <i className='text-white text-center w-[60%] drop-shadow-2xl text-base mb-30 z-10'>"{aboutUsText}"</i>
+            <i className='text-white text-center w-[60%] drop-shadow-2xl text-base mb-30 z-10  animate-fadeIn'>"{aboutUsText}"</i>
         </div>
 
 
