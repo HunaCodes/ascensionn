@@ -9,9 +9,8 @@ export default function AboutUs() {
 
         {/* Background Image */}
         <div className='relative w-full h-[45%] top-0 bg-[url("/aboutUsBG.jpeg")] bg-cover bg-center justify-center items-center flex flex-col text-5xl'>
-            {/* <div className='bg-gradient-to-b to-transparent from-transparent via-[#051923] from-[5%] via-[15%] w-screen h-80 z-10 absolute top-[40%]'></div> */}
 
-            <div className='absolute inset-0 bg-[#051923] opacity-[70%] z-0'></div>
+            <div className='absolute inset-0 bg-[#051923] opacity-[75%] z-0'></div>
 
             {/* Title */}
             <div className='text-white font-bold drop-shadow-lg top-0 h-full mt-5 z-10'>About Us</div>
