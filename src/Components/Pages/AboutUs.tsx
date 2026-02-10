@@ -10,14 +10,16 @@ export default function AboutUs() {
         {/* Background Image */}
         <div className='relative w-full h-[47%] top-0 bg-[url("/aboutUsBG.jpeg")] bg-cover bg-[center_75%] justify-center items-center flex flex-col text-5xl'>
 
+          <img className='w-[5%] h-[20%] absolute z-1 top-0 right-0 p-1 cursor-pointer transform hover:scale-110 duration-300' src="/logo.png" />
+
             {/* Overlay */}
             <div className='absolute inset-0 bg-gradient-to-t from-[#051923] via-transparent to-transparent opacity-100  z-0'></div>
 
             {/* Title */}
-            <div className='text-white font-bold drop-shadow-lg top-0 h-full mt-5 z-10'>About Us</div>
+            <div className='text-white font-bold text-6xl drop-shadow-2xl top-0 h-full mt-5 z-10'>About Us</div>
 
             {/*sBackground information*/}
-            <i className='text-white text-center w-[60%] text-base mb-30 z-10'>"{aboutUsText}"</i>
+            <i className='text-white text-center w-[60%] drop-shadow-2xl text-base mb-30 z-10'>"{aboutUsText}"</i>
         </div>
 
 
