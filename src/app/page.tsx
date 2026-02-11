@@ -3,7 +3,7 @@
 import Page from "@/Components/Page";
 import AboutUs from "@/Components/Pages/AboutUs";
 import Home from "@/Components/Pages/Home";
-
+import ReviewPage from "@/Components/Pages/ReviewPage";
 
 type ComponentConfig = {
   Component: React.ReactNode

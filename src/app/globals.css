@@ -27,7 +27,10 @@
   --color-asc-200: #0582CA;
   --color-asc-300: #006494;
   --color-asc-400: #003554;
-  --color-asc-500: #051923;
+  --color-asc-500: #11252D;
+  --color-asc-600: #051923;
+  
+  --text-md: 1rem;
   --breakpoint-xs: 20rem;
 
 }
