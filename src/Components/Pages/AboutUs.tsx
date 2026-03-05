@@ -10,6 +10,7 @@ export default function AboutUs() {
         {/* Background Image */}
         <div className='relative w-full h-[47%] top-0 bg-[url("/aboutUsBG.jpeg")] bg-cover bg-[center_75%] justify-center items-center flex flex-col text-5xl'>
 
+          {/* Logo Image */}
           <img className='w-[5%] h-[20%] absolute z-1 top-0 right-0 p-1 cursor-pointer transform hover:scale-110 duration-300' src="/logo.png" />
 
             {/* Overlay */}
@@ -24,7 +25,16 @@ export default function AboutUs() {
 
 
         {/* Our Team Title */}
-        <div className='flex text-white font-semibold w-full justify-center mt-5 text-2xl'>Our Team</div>
+        <div className='flex flex-col text-white font-semibold w-full items-center mt-5 text-2xl'>
+          
+          <h1>Our Team</h1>
+          
+          {/* Image of the creator */}
+          <img src="/g.png"></img>
+          
+        
+        </div>
+
 
 
     </div>
