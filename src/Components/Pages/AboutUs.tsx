@@ -25,12 +25,12 @@ export default function AboutUs() {
 
 
         {/* Our Team Title */}
-        <div className='flex flex-col text-white font-semibold w-full items-center mt-5 text-2xl'>
+        <div className='flex flex-col text-white font-semibold w-full items-center mt-5 text-2xl gap-10'>
           
           <h1>Our Team</h1>
           
           {/* Image of the creator */}
-          <img src="/g.png"></img>
+          <img className="w-[7%]" src="/pp.png"></img>
           
         
         </div>
