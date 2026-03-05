@@ -30,7 +30,7 @@ export default function AboutUs() {
           <h1>Our Team</h1>
           
           {/* Image of the creator */}
-          <img className="w-[7%]" src="/pp.png"></img>
+          <img className="w-1/11 transform hover:scale-90 duration-300 cursor-pointer" src="/pp.png"></img>
           
         
         </div>
