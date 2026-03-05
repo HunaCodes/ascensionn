@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function AboutUs() {
 
   const aboutUsText = "At Ascensionn, we specialize in helping Angel Investors attract over 50 thesis-aligned deals within 180 days. Our unique approach empowers investors to build a consistent and proprietary deal flow, ensuring they find high-quality opportunities that match their specific investment goals. With a focus on precision and efficiency, we streamline the deal-sourcing process to create lasting value for both investors and startups.";
+
+  const [popup, setPopUp] = useState(false);
+
 
   return (
     <div className='relative w-screen h-screen flex flex-col'>
@@ -20,7 +23,7 @@ export default function AboutUs() {
             <div className='text-white font-bold text-6xl drop-shadow-2xl top-0 h-full mt-5 z-10'>About Us</div>
 
             {/*sBackground information*/}
-            <i className='text-white text-center w-[60%] h-fit pb-30 drop-shadow-2xl text-base z-10 transform animate-fadeIn'>"{aboutUsText}"</i>
+            <i className='text-white text-center w-[60%] h-fit pb-30 drop-shadow-2xl text-base z-1 transform animate-fadeIn'>"{aboutUsText}"</i>
         </div>
 
 
@@ -30,8 +33,15 @@ export default function AboutUs() {
           <h1>Our Team</h1>
           
           {/* Image of the creator */}
-          <img className="w-1/11 transform hover:scale-90 duration-300 cursor-pointer" src="/pp.png"></img>
+          <img className="w-1/11 transform hover:scale-90 duration-300 cursor-pointer" src="/pp.png" onClick={()=>setPopUp(true)}></img>
           
+          {popup === true && <div className='absolute inset-0 m-auto w-1/2 h-1/2 bg-black z-50'>
+            
+            <button onClick={()=>(setPopUp(false))}>Close</button>            
+            
+            
+            
+          </div>}
         
         </div>
 
