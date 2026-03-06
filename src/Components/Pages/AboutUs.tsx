@@ -35,9 +35,9 @@ export default function AboutUs() {
           {/* Image of the creator */}
           <img className="w-1/11 transform hover:scale-90 duration-300 cursor-pointer" src="/pp.png" onClick={()=>setPopUp(true)}></img>
           
-          {popup === true && <div className='absolute inset-0 m-auto w-1/2 h-1/2 bg-black z-50'>
+          {popup === true && <div className='absolute inset-0 m-auto w-1/2 h-[80%] bg-[#0d3a50] border-2 border-black rounded-4xl z-50'>
             
-            <button onClick={()=>(setPopUp(false))}>Close</button>            
+            <button className = "justify-end px-4 cursor-pointer flex w-full" onClick={()=>(setPopUp(false))}>Close</button>            
             
             
             
