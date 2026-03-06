@@ -38,8 +38,18 @@ export default function AboutUs() {
           {popup === true && <div className='absolute inset-0 m-auto w-1/2 h-[80%] bg-[#0d3a50] border-2 border-black rounded-4xl z-50'>
             
             <button className = "justify-end px-4 cursor-pointer flex w-full" onClick={()=>(setPopUp(false))}>Close</button>            
-            
-            
+
+              {/* Personal info */}
+              <div></div>
+
+              {/* Bio */}
+              <div></div>
+
+              {/* Acomplishments */}
+              <div></div>
+
+              {/* Social Links */}
+              <div></div>
             
           </div>}
         
