@@ -44,11 +44,7 @@ export default function AboutUs() {
               <div className='w-full items-center font-normal flex flex-col gap-10'>
                 <h1 className='text-lg'>Gurnoor Singh</h1>
                 <p className='text-center text-md w-[80%] italic'>"{personalBio}"</p>
-
               </div>
-
-              {/* Bio */}
-              <div></div>
 
               {/* Acomplishments */}
               <div></div>
