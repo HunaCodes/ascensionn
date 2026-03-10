@@ -40,7 +40,10 @@ export default function AboutUs() {
             <button className = "justify-end px-4 cursor-pointer flex w-full" onClick={()=>(setPopUp(false))}>Close</button>            
 
               {/* Personal info */}
-              <div></div>
+              <div className='w-full justify-center flex flex-col'>
+                <h1>Gurnoor Singh</h1>
+                
+              </div>
 
               {/* Bio */}
               <div></div>
