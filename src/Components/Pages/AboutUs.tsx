@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 export default function AboutUs() {
 
   const aboutUsText = "At Ascensionn, we specialize in helping Angel Investors attract over 50 thesis-aligned deals within 180 days. Our unique approach empowers investors to build a consistent and proprietary deal flow, ensuring they find high-quality opportunities that match their specific investment goals. With a focus on precision and efficiency, we streamline the deal-sourcing process to create lasting value for both investors and startups.";
+  const personalBio = "I'm Gurnoor Singh, founder of Ascensionn. My focus is on helping angel investors find 50+ thesis-aligned deals in just 180 days, while building a steady flow of exclusive opportunities. With a background in real estate and a passion for connecting the right investors to the right deals, I’m dedicated to making the investment process smoother and more efficient."
 
   const [popup, setPopUp] = useState(false);
 
@@ -40,9 +41,10 @@ export default function AboutUs() {
             <button className = "justify-end px-4 cursor-pointer flex w-full" onClick={()=>(setPopUp(false))}>Close</button>            
 
               {/* Personal info */}
-              <div className='w-full justify-center flex flex-col'>
-                <h1>Gurnoor Singh</h1>
-                
+              <div className='w-full items-center font-normal flex flex-col gap-10'>
+                <h1 className='text-lg'>Gurnoor Singh</h1>
+                <p className='text-center text-md w-[80%] italic'>"{personalBio}"</p>
+
               </div>
 
               {/* Bio */}
