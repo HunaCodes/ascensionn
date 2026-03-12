@@ -50,7 +50,12 @@ export default function AboutUs() {
               <div></div>
 
               {/* Social Links */}
-              <div></div>
+              <div className='flex flex-col gap-10'>
+                <img className="cursor-pointer rounded-md trasnform hover:scale-90 duration-300" alt='Instagram'></img>
+                <img className="cursor-pointer rounded-md trasnform hover:scale-90 duration-300" alt='Youtube'></img>
+                <img className="cursor-pointer rounded-md trasnform hover:scale-90 duration-300" alt='LinkedIn'></img>
+                <img className="cursor-pointer rounded-md trasnform hover:scale-90 duration-300" alt='X'></img>
+              </div>
             
           </div>}
         
