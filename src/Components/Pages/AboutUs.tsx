@@ -50,14 +50,41 @@ export default function AboutUs() {
               <div></div>
 
               {/* Social Links */}
-              <div className='flex flex-col gap-10'>
-                <img className="cursor-pointer rounded-md trasnform hover:scale-90 duration-300" alt='Instagram'></img>
-                <img className="cursor-pointer rounded-md trasnform hover:scale-90 duration-300" alt='Youtube'></img>
-                <img className="cursor-pointer rounded-md trasnform hover:scale-90 duration-300" alt='LinkedIn'></img>
-                <img className="cursor-pointer rounded-md trasnform hover:scale-90 duration-300" alt='X'></img>
+              <div className='flex gap-5 justify-center w-full mt-10'>
+                    <a href="https://www.instagram.com/yourusername">
+                      <img
+                        src="/instagram.png"
+                        className="w-[50px] h-[50px] cursor-pointer rounded-sm transform hover:scale-90 duration-300"
+                        alt="Instagram"
+                      />
+                    </a>
+
+                    <a href="https://www.youtube.com/@yourchannel">
+                      <img
+                        src="/youtube.png"
+                        className="w-[50px] h-[50px] cursor-pointer transform hover:scale-90 duration-300"
+                        alt="Youtube"
+                      />
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/ascensionn-ecom/posts/?feedView=all">
+                      <img
+                        src="/linkedin.png"
+                        className="w-[50px] h-[50px] cursor-pointer transform hover:scale-90 duration-300"
+                        alt="LinkedIn"
+                      />
+                    </a>
+
+                    <a href="https://x.com/yourusername">
+                      <img
+                        src="/twitter.png"
+                        className="w-[50px] h-[50px] bg-white cursor-pointer transform hover:scale-90 duration-300"
+                        alt="X"
+                      />
+                    </a>
               </div>
             
-          </div>}
+          </div>} 
         
         </div>
 
