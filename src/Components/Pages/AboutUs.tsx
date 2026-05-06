@@ -78,7 +78,7 @@ export default function AboutUs() {
                     <a href="https://x.com/yourusername">
                       <img
                         src="/twitter.png"
-                        className="w-[50px] h-[50px] bg-white cursor-pointer transform hover:scale-90 duration-300"
+                        className="w-[50px] h-[50px] bg-white rounded-md cursor-pointer transform hover:scale-90 duration-300"
                         alt="X"
                       />
                     </a>
