@@ -50,7 +50,7 @@ export default function AboutUs() {
               <div></div>
 
               {/* Social Links */}
-              <div className='flex gap-5 justify-center w-full mt-10'>
+              <div className='flex gap-5 justify-center w-full h-full mt-20'>
                     <a href="https://www.instagram.com/yourusername">
                       <img
                         src="/instagram.png"
