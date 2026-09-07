@@ -3,7 +3,7 @@ import React from 'react'
 export default function SocialLinks() {
   return (
      <div className='flex gap-5 justify-center w-full h-full mt-20'>
-                    <a href="https://www.instagram.com/yourusername">
+                    <a href="https://www.instagram.com/gurnoorsinghofficial?stkn=MWJtOHZyMGRyb3JwdA==">
                       <img
                         src="/instagram.png"
                         className="w-[50px] h-[50px] cursor-pointer rounded-sm transform hover:scale-90 duration-300"
@@ -19,7 +19,7 @@ export default function SocialLinks() {
                       />
                     </a>
 
-                    <a href="https://www.linkedin.com/company/ascensionn-ecom/posts/?feedView=all">
+                    <a href="https://www.linkedin.com/in/gurnoorsinghh/">
                       <img
                         src="/linkedin.png"
                         className="w-[50px] h-[50px] cursor-pointer transform hover:scale-90 duration-300"
